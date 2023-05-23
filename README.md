@@ -42,18 +42,3 @@
 <li>The starter code for the "Create Contacts' DataFrame" had a bug. It imported the data from the relevant csv file using the "header=2" parameter. This introduced an adiditonal row in the table which mean that the header 'contact_info' was read in as the forst row in the DataFrame. This caused issues in further cleaning the DataFrame, whether by using python dictionaries and a list comprehension or using regular expressions. teh data would have been correctly read in using the parameter "header=3". Rather than change the started code, instead the first row was made the column header, which solved the issues. An alternate method would have been to loop thorugh the DataFrame using 'itterows' and dropping the header row.</li>
 <li>The original repository set up on GitHub had to be replaced late in the day by a new repository. Somehow there was a conflict caused between files submitted to a branch for merging. the conflicts were minor - coming from the number of times the Jupityr notebook. We did not get to the bottom of why the conflict occurred, and why it was so difficult to resilve, but because time was running short for submission, we set this alternative repository nad pushed the merger=d file and supporting documents.</li></ol>
   
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-
-
-Since this is a one-week project, make sure that you have done at least half of your project before the third day of class to stay on track.
