@@ -1,5 +1,5 @@
 # Project_2_ETL
-<p><h2>Extrat, Transform, Load: mini project setting up an ETL pipeline using using Crowdfunding data.</h2></p>
+<p><h2>Extract, Transform, Load: mini project setting up an ETL pipeline using using Crowdfunding data.</h2></p>
 <p>For the ETL mini project,  Richard Thornton and Roberto Sammassimo, collaborated to build an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. The idea of the project was to take the raw data, contained in an excel spreadsheet, and transform it into smaller digestible tables with appropriate data types to enable the DataFrames to be imported into a relational database (PostgreSQL) for future analysis.</p>
 <p>This project had three steps:<ol>
   <li>Importing the data, contained in a Excel file.</li>
